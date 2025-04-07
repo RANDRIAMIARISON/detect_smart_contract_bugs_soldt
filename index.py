@@ -1,3 +1,4 @@
+# la version exiger d'antlr4 est de 4.9.2 est bien fonctionnel
 from antlr4 import *
 from SolidityLexer import SolidityLexer
 from SolidityParser import SolidityParser
@@ -76,3 +77,4 @@ if __name__ == "__main__":
         print("Usage: python script.py <solidity_file.sol>")
     else:
         analyze_solidity_file(sys.argv[1])
+#
